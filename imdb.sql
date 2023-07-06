@@ -1,10 +1,6 @@
 CREATE DATABASE IMDB;
 USE IMDB;
 
-INSERT INTO movie VALUES (1,'Master',7.6);
-INSERT INTO movie VALUES (2,96,7.6);
-
-alter table movie add rating decimal(2,1);
 
 CREATE TABLE Movie (
   movie_id INT PRIMARY KEY,
@@ -149,7 +145,7 @@ VALUES
   (2, 3, 2),
   (3, 4, 2);
   
-  drop table movie;
+  
   
   
   
